@@ -1,0 +1,25 @@
+{
+  "name": "book-db",
+  "version": "0.0.0",
+  "description": "A small book database web application containing front-end, back-end: server, handlers using express, db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "book-db"
+  },
+  "author": "Crow",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0"
+  }
+}
